@@ -199,29 +199,29 @@ just_the_docs:
       # Supports true or false (default)
       # search_exclude: true
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-seo-tag
+#   - jekyll-github-metadata
+#   - jekyll-include-cache
+#   - jekyll-sitemap
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
+# kramdown:
+#   syntax_highlighter_opts:
+#     block:
+#       line_numbers: false
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
-  # ignore:
-  #   envs: all
+# compress_html:
+#   clippings: all
+#   comments: all
+#   endings: all
+#   startings: []
+#   blanklines: false
+#   profile: false
+#   # ignore:
+#   #   envs: all
 
-sass:
-  quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
-  silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
+# sass:
+#   quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
+#   silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
 
 
