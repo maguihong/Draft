@@ -128,48 +128,48 @@ liquid:
 # Supports true (default) or false
 heading_anchors: true
 
-# # Footer content
-# # appears at the bottom of every page's main content
+# Footer content
+# appears at the bottom of every page's main content
 
-# # Back to top link
-# back_to_top: true
-# back_to_top_text: "Back to top"
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
 
-# # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
-# footer_content: 'Copyright &copy; 2025 MAGUIHONG. All Rights Reserved.
+# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
+footer_content: 'Copyright &copy; 2025 MAGUIHONG. All Rights Reserved.
 
-# # Footer last edited timestamp
-# last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-# last_edit_time_format: "%Y-%m-%d %H:%M:%S %z" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%Y-%m-%d %H:%M:%S %z" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
-# # Footer "Edit this page on GitHub" link text
-# gh_edit_link: true # show or hide edit this page link
-# gh_edit_link_text: "Edit this page on GitHub"
-# gh_edit_repository: "https://github.com/maguihong/maguihong.github.io" # the github URL for your repo
-# gh_edit_branch: "main" # the branch that your docs is served from
-# # gh_edit_source: docs # the source that your files originate from
-# gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/maguihong/maguihong.github.io" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-# # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-# color_scheme: nil
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: nil
 
-# # Callouts
-# callouts_level: quiet # or loud
-# callouts:
-#   highlight:
-#     color: yellow
-#   important:
-#     title: Important
-#     color: blue
-#   new:
-#     title: New
-#     color: green
-#   note:
-#     title: Note
-#     color: purple
-#   warning:
-#     title: Warning
-#     color: red
+# Callouts
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
 
 # # Google Analytics Tracking (optional)
 # # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
