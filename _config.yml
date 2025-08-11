@@ -100,8 +100,6 @@ mermaid:
 aux_links:
   "MAGUIHONG on GitHub": 
     - "https://github.com/maguihong"
-  "Just the Docs":
-    - "https://just-the-docs.com"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -119,6 +117,10 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 nav_external_links:
   - title: MAGUIHONG on GitHub
     url: https://github.com/maguihong
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+  - title: Just the Docs
+    url: https://just-the-docs.com
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
 
