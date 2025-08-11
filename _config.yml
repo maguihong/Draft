@@ -100,6 +100,8 @@ mermaid:
 aux_links:
   "MAGUIHONG on GitHub": 
     - "https://github.com/maguihong"
+  "Just the Docs":
+    - "https://just-the-docs.com"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
