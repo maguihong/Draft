@@ -3,8 +3,8 @@
 title: Draft
 description: Draft
 theme: just-the-docs
-baseurl: "/Draft" # the subpath of your site, e.g. /blog
-url: "https://maguihong.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://maguihong.com/Draft" # the base hostname & protocol for your site, e.g. http://example.com
 repository: maguihong/Draft # for github-metadata
 
 permalink: pretty
