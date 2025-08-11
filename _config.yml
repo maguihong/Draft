@@ -5,49 +5,49 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maguihong.com/Draft" # the base hostname & protocol for your site, e.g. http://example.com
 repository: maguihong/Draft # for github-metadata
 
-# permalink: pretty
+permalink: pretty
 
-# defaults:
-#   - scope:
-#       path: "docs" # an empty string here means all files in the project
-#       type: "pages"
-#     values:
-#       layout: "default"
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
 
-# exclude:
-#   # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-#   # specific to the theme website:
-#   - bin/
-#   - lib/
-#   - "*.gemspec"
-#   - "*.gem"
-#   - LICENSE.txt
-#   - package.json
-#   - package-lock.json
-#   - Rakefile
-#   - README.md
-#   - CODE_OF_CONDUCT.md
-#   - docker-compose.yml
-#   - Dockerfile
-#   # theme test code
-#   - fixtures/
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
 
-# # Set a path/url to a logo that will be displayed instead of the title
-# # logo: "/assets/images/just-the-docs.png"
+# Set a path/url to a logo that will be displayed instead of the title
+# logo: "/assets/images/just-the-docs.png"
 
-# # Set a path/url to a favicon that will be displayed by the browser
-# # If the path to your favicon is /favicon.ico, you can leave favicon_ico unset.
-# # favicon_ico: "/assets/images/favicon.ico"
+# Set a path/url to a favicon that will be displayed by the browser
+# If the path to your favicon is /favicon.ico, you can leave favicon_ico unset.
+# favicon_ico: "/assets/images/favicon.ico"
 
 # # Enable or disable the site search
 # # Supports true (default) or false
