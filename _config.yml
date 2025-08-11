@@ -171,57 +171,57 @@ callouts:
     title: Warning
     color: red
 
-# # Google Analytics Tracking (optional)
-# # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
-# ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
-# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
-# # Define Jekyll collections
-# collections:
-#   # Define a collection named "tests", its documents reside in the "_tests" directory
-#   tests:
-#     permalink: "/:collection/:path/"
-#     output: true
-# just_the_docs:
-#   # Define which collections are used in just-the-docs
-#   collections:
-#     # Reference the "tests" collection
-#     tests:
-#       # Give the collection a name
-#       name: Tests
-#       # Exclude the collection from the navigation
-#       # Supports true or false (default)
-#       # nav_exclude: true
-#       # Fold the collection in the navigation
-#       # Supports true or false (default)
-#       # nav_fold: true  # note: this option is new in v0.4
-#       # Exclude the collection from the search
-#       # Supports true or false (default)
-#       # search_exclude: true
+# Define Jekyll collections
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  tests:
+    permalink: "/:collection/:path/"
+    output: true
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    tests:
+      # Give the collection a name
+      name: Tests
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
 
-# plugins:
-#   - jekyll-seo-tag
-#   - jekyll-github-metadata
-#   - jekyll-include-cache
-#   - jekyll-sitemap
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-sitemap
 
-# kramdown:
-#   syntax_highlighter_opts:
-#     block:
-#       line_numbers: false
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-# compress_html:
-#   clippings: all
-#   comments: all
-#   endings: all
-#   startings: []
-#   blanklines: false
-#   profile: false
-#   # ignore:
-#   #   envs: all
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
 
-# sass:
-#   quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
-#   silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
+sass:
+  quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
+  silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
 
 
