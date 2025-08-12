@@ -98,8 +98,8 @@ mermaid:
 
 # Aux links for the upper right navigation
 aux_links:
-  "maguihong.github.io": 
-    - "https://github.com/maguihong/maguihong.github.io"
+  "info@maguihong.com": 
+    - "mailto:info@maguihong.com"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
